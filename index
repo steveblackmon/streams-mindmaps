@@ -158,7 +158,8 @@
       "attr": {
         "style": {
           "color": "#FF0000",
-          "lineStyle": "dashed"
+          "lineStyle": "dashed",
+          "arrow": false
         }
       }
     },
