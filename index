@@ -130,9 +130,9 @@
       "ideaIdTo": 13,
       "attr": {
         "style": {
-          "color": "#c0c0c0",
-          "lineStyle": "solid",
-          "arrow": true
+          "color": "#ff0000",
+          "lineStyle": "dashed",
+          "arrow": false
         }
       }
     },
@@ -141,9 +141,9 @@
       "ideaIdTo": 23,
       "attr": {
         "style": {
-          "color": "#c0c0c0",
-          "lineStyle": "solid",
-          "arrow": true
+          "color": "#ff0000",
+          "lineStyle": "dashed",
+          "arrow": false
         }
       }
     },
@@ -152,9 +152,9 @@
       "ideaIdTo": 12,
       "attr": {
         "style": {
-          "color": "#c0c0c0",
-          "lineStyle": "solid",
-          "arrow": true
+          "color": "#ff0000",
+          "lineStyle": "dashed",
+          "arrow": false
         }
       }
     },
@@ -163,9 +163,9 @@
       "ideaIdTo": 4,
       "attr": {
         "style": {
-          "color": "#c0c0c0",
-          "lineStyle": "solid",
-          "arrow": true
+          "color": "#ff0000",
+          "lineStyle": "dashed",
+          "arrow": false
         }
       }
     },
@@ -174,7 +174,7 @@
       "ideaIdTo": 3,
       "attr": {
         "style": {
-          "color": "#c0c0c0",
+          "color": "#ff0000",
           "lineStyle": "dashed",
           "arrow": true
         }
@@ -185,9 +185,9 @@
       "ideaIdTo": 6,
       "attr": {
         "style": {
-          "color": "#c0c0c0",
-          "lineStyle": "solid",
-          "arrow": true
+          "color": "#ff0000",
+          "lineStyle": "dashed",
+          "arrow": false
         }
       }
     },
@@ -196,9 +196,9 @@
       "ideaIdTo": 20,
       "attr": {
         "style": {
-          "color": "#c0c0c0",
-          "lineStyle": "solid",
-          "arrow": true
+          "color": "#ff0000",
+          "lineStyle": "dashed",
+          "arrow": false
         }
       }
     },
@@ -207,9 +207,9 @@
       "ideaIdTo": 30,
       "attr": {
         "style": {
-          "color": "#c0c0c0",
+          "color": "#ff0000",
           "lineStyle": "dashed",
-          "arrow": true
+          "arrow": false
         }
       }
     },
@@ -218,9 +218,9 @@
       "ideaIdTo": 14,
       "attr": {
         "style": {
-          "color": "#c0c0c0",
+          "color": "#ff0000",
           "lineStyle": "dashed",
-          "arrow": true
+          "arrow": false
         }
       }
     }
