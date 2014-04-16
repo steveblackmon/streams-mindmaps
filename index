@@ -12,8 +12,9 @@
           "id": 2,
           "ideas": {
             "1": {
-              "title": "id",
-              "id": 3
+              "title": "id\n",
+              "id": 3,
+              "ideas": {}
             },
             "2": {
               "title": "displayName",
@@ -52,6 +53,10 @@
             }
           }
         },
+        "6": {
+          "title": "id",
+          "id": 30
+        },
         "1.5": {
           "title": "published",
           "id": 23
@@ -86,6 +91,10 @@
           "title": "coordinates",
           "id": 28
         },
+        "14": {
+          "title": "idStr",
+          "id": 31
+        },
         "0.5": {
           "title": "createdAt",
           "id": 21
@@ -117,8 +126,9 @@
       "ideaIdTo": 13,
       "attr": {
         "style": {
-          "color": "#FF0000",
-          "lineStyle": "dashed"
+          "color": "#c0c0c0",
+          "lineStyle": "solid",
+          "arrow": true
         }
       }
     },
@@ -127,8 +137,9 @@
       "ideaIdTo": 23,
       "attr": {
         "style": {
-          "color": "#FF0000",
-          "lineStyle": "dashed"
+          "color": "#c0c0c0",
+          "lineStyle": "solid",
+          "arrow": true
         }
       }
     },
@@ -137,8 +148,9 @@
       "ideaIdTo": 12,
       "attr": {
         "style": {
-          "color": "#FF0000",
-          "lineStyle": "dashed"
+          "color": "#c0c0c0",
+          "lineStyle": "solid",
+          "arrow": true
         }
       }
     },
@@ -147,8 +159,9 @@
       "ideaIdTo": 4,
       "attr": {
         "style": {
-          "color": "#FF0000",
-          "lineStyle": "dashed"
+          "color": "#c0c0c0",
+          "lineStyle": "solid",
+          "arrow": true
         }
       }
     },
@@ -157,9 +170,9 @@
       "ideaIdTo": 3,
       "attr": {
         "style": {
-          "color": "#FF0000",
+          "color": "#c0c0c0",
           "lineStyle": "dashed",
-          "arrow": false
+          "arrow": true
         }
       }
     },
@@ -168,8 +181,9 @@
       "ideaIdTo": 6,
       "attr": {
         "style": {
-          "color": "#FF0000",
-          "lineStyle": "dashed"
+          "color": "#c0c0c0",
+          "lineStyle": "solid",
+          "arrow": true
         }
       }
     },
@@ -178,10 +192,30 @@
       "ideaIdTo": 20,
       "attr": {
         "style": {
-          "color": "#FF0000",
-          "lineStyle": "dashed"
+          "color": "#c0c0c0",
+          "lineStyle": "solid",
+          "arrow": true
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 31,
+      "ideaIdTo": 30,
+      "attr": {
+        "style": {
+          "color": "#c0c0c0",
+          "lineStyle": "dashed",
+          "arrow": true
         }
       }
     }
-  ]
+  ],
+  "attr": {
+    "measurements-config": [
+      "measure"
+    ],
+    "style": {
+      "background": "#22AAE0"
+    }
+  }
 }
