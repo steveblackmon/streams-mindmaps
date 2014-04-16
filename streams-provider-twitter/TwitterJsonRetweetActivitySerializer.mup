@@ -44,6 +44,10 @@
             "1": {
               "title": "location",
               "id": 24
+            },
+            "2": {
+              "title": "twitter",
+              "id": 30
             }
           },
           "id": 23
@@ -55,6 +59,20 @@
         "8": {
           "title": "verb\nshare",
           "id": 26
+        },
+        "9": {
+          "title": "object",
+          "id": 29,
+          "ideas": {
+            "2": {
+              "title": "id",
+              "id": 33
+            },
+            "12": {
+              "title": "objectType\ntweet",
+              "id": 32
+            }
+          }
         }
       },
       "id": 14
@@ -63,37 +81,10 @@
       "title": "tweet",
       "ideas": {
         "7": {
-          "title": "retweeted_status",
+          "title": "retweetedStatus",
           "id": 27,
           "ideas": {
             "1": {
-              "title": "createdAt",
-              "id": 7,
-              "attr": {
-                "style": {
-                  "background": "#E0E0E0"
-                }
-              }
-            },
-            "2": {
-              "title": "idStr",
-              "id": 13,
-              "attr": {
-                "style": {
-                  "background": "#E0E0E0"
-                }
-              }
-            },
-            "3": {
-              "title": "coordinates",
-              "id": 12,
-              "attr": {
-                "style": {
-                  "background": "#E0E0E0"
-                }
-              }
-            },
-            "4": {
               "title": "entities",
               "ideas": {
                 "1": {
@@ -114,37 +105,69 @@
                 }
               }
             },
-            "5": {
-              "title": "text",
-              "id": 8,
+            "2": {
+              "title": "idStr",
+              "id": 13,
               "attr": {
                 "style": {
                   "background": "#E0E0E0"
                 }
               }
+            }
+          }
+        },
+        "8": {
+          "title": "text",
+          "id": 28
+        },
+        "9": {
+          "title": "coordinates",
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          },
+          "id": 38
+        },
+        "5.25": {
+          "title": "user",
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "idStr",
+              "id": 35
             },
-            "6": {
-              "title": "user",
-              "ideas": {
-                "1": {
-                  "title": "idStr",
-                  "id": 4
-                },
-                "2": {
-                  "title": "screenName",
-                  "id": 5
-                },
-                "3": {
-                  "title": "url",
-                  "id": 6
-                }
-              },
-              "id": 3,
-              "attr": {
-                "style": {
-                  "background": "#E0E0E0"
-                }
-              }
+            "2": {
+              "title": "screenName",
+              "id": 36
+            },
+            "3": {
+              "title": "url",
+              "id": 37
+            }
+          },
+          "id": 34
+        },
+        "6.125": {
+          "title": "createdAt",
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          },
+          "id": 31,
+          "ideas": {}
+        },
+        "6.5625": {
+          "title": "idStr",
+          "id": 39,
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
             }
           }
         }
@@ -153,5 +176,107 @@
     }
   },
   "formatVersion": 2,
-  "id": 1
+  "id": 1,
+  "links": [
+    {
+      "ideaIdFrom": 2,
+      "ideaIdTo": 30,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 28,
+      "ideaIdTo": 20,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 31,
+      "ideaIdTo": 19,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 35,
+      "ideaIdTo": 16,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 36,
+      "ideaIdTo": 17,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 37,
+      "ideaIdTo": 18,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 38,
+      "ideaIdTo": 24,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 13,
+      "ideaIdTo": 33,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 11,
+      "ideaIdTo": 21,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 39,
+      "ideaIdTo": 22,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    }
+  ]
 }
