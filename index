@@ -12,7 +12,7 @@
           "id": 2,
           "ideas": {
             "1": {
-              "title": "id\n",
+              "title": "id\nid:twitter:{$.user.idStr}",
               "id": 3,
               "ideas": {}
             },
@@ -40,7 +40,7 @@
           "id": 13
         },
         "4": {
-          "title": "url",
+          "title": "url\ntwitter.com/{$.idStr}",
           "id": 14
         },
         "5": {
@@ -54,8 +54,12 @@
           }
         },
         "6": {
-          "title": "id",
+          "title": "id\nid:twitter:post:{$.idStr}",
           "id": 30
+        },
+        "7": {
+          "title": "verb\npost",
+          "id": 33
         },
         "1.5": {
           "title": "published",
@@ -201,6 +205,17 @@
     {
       "ideaIdFrom": 31,
       "ideaIdTo": 30,
+      "attr": {
+        "style": {
+          "color": "#c0c0c0",
+          "lineStyle": "dashed",
+          "arrow": true
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 24,
+      "ideaIdTo": 14,
       "attr": {
         "style": {
           "color": "#c0c0c0",
