@@ -1,0 +1,157 @@
+{
+  "title": "TwitterJsonRetweetActivitySerializer",
+  "ideas": {
+    "2": {
+      "title": "activity",
+      "ideas": {
+        "1": {
+          "title": "actor",
+          "ideas": {
+            "1": {
+              "title": "id\nid:twitter:{$.user.idStr}",
+              "id": 16
+            },
+            "2": {
+              "title": "displayName",
+              "id": 17
+            },
+            "3": {
+              "title": "url",
+              "id": 18
+            }
+          },
+          "id": 15
+        },
+        "2": {
+          "title": "published",
+          "id": 19
+        },
+        "3": {
+          "title": "content",
+          "id": 20
+        },
+        "4": {
+          "title": "links",
+          "id": 21
+        },
+        "5": {
+          "title": "url\ntwitter.com/{$.idStr}",
+          "id": 22
+        },
+        "6": {
+          "title": "extensions",
+          "ideas": {
+            "1": {
+              "title": "location",
+              "id": 24
+            }
+          },
+          "id": 23
+        },
+        "7": {
+          "title": "id\nid:twitter:share:{$.idStr}",
+          "id": 25
+        },
+        "8": {
+          "title": "verb\nshare",
+          "id": 26
+        }
+      },
+      "id": 14
+    },
+    "-10": {
+      "title": "tweet",
+      "ideas": {
+        "7": {
+          "title": "retweeted_status",
+          "id": 27,
+          "ideas": {
+            "1": {
+              "title": "createdAt",
+              "id": 7,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            },
+            "2": {
+              "title": "idStr",
+              "id": 13,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            },
+            "3": {
+              "title": "coordinates",
+              "id": 12,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            },
+            "4": {
+              "title": "entities",
+              "ideas": {
+                "1": {
+                  "title": "urls",
+                  "ideas": {
+                    "1": {
+                      "title": "expandedUrl",
+                      "id": 11
+                    }
+                  },
+                  "id": 10
+                }
+              },
+              "id": 9,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            },
+            "5": {
+              "title": "text",
+              "id": 8,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            },
+            "6": {
+              "title": "user",
+              "ideas": {
+                "1": {
+                  "title": "idStr",
+                  "id": 4
+                },
+                "2": {
+                  "title": "screenName",
+                  "id": 5
+                },
+                "3": {
+                  "title": "url",
+                  "id": 6
+                }
+              },
+              "id": 3,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          }
+        }
+      },
+      "id": 2
+    }
+  },
+  "formatVersion": 2,
+  "id": 1
+}
