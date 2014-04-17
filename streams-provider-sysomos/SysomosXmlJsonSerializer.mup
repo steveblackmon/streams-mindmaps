@@ -162,28 +162,13 @@
           },
           "ideas": {
             "1": {
-              "title": "\"$displayName\": \"$value\"\nonly where systemType != SYSTEM",
+              "title": "\"$systemType\": \"$value\"\nonly where systemType present\n\"$displayName\": \"$value\" otherwise",
               "id": 51,
               "attr": {
                 "style": {
                   "background": "#00ffff"
                 }
               }
-            }
-          }
-        },
-        "26": {
-          "title": "systemTags",
-          "id": 49,
-          "ideas": {
-            "1": {
-              "title": "\"$displayName\": \"$value\"only where systemType == SYSTEM",
-              "attr": {
-                "style": {
-                  "background": "#00ffff"
-                }
-              },
-              "id": 52
             }
           }
         }
@@ -302,16 +287,6 @@
   },
   "links": [
     {
-      "ideaIdFrom": 3,
-      "ideaIdTo": 2,
-      "attr": {
-        "style": {
-          "color": "#FF0000",
-          "lineStyle": "dashed"
-        }
-      }
-    },
-    {
       "ideaIdFrom": 4,
       "ideaIdTo": 42,
       "attr": {
@@ -322,8 +297,8 @@
       }
     },
     {
-      "ideaIdFrom": 4,
-      "ideaIdTo": 49,
+      "ideaIdFrom": 7,
+      "ideaIdTo": 2,
       "attr": {
         "style": {
           "color": "#FF0000",
