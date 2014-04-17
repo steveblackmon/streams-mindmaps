@@ -1,21 +1,63 @@
 {
-  "title": "SysomosXmlJsonSerializer",
+  "title": "SysomosJsonActivitySerializer",
   "id": 1,
   "formatVersion": 2,
   "ideas": {
     "1": {
-      "title": "sysomos",
-      "id": 2,
+      "title": "activity",
+      "id": 53,
       "ideas": {
         "1": {
-          "title": "tweetHbLink",
-          "id": 25,
-          "attr": {
-            "style": {
-              "background": "#E0E0E0"
+          "title": "id",
+          "id": 54
+        },
+        "2": {
+          "title": "published",
+          "id": 55
+        },
+        "3": {
+          "title": "provider\nsysomos:$.mediaType",
+          "id": 58
+        },
+        "4": {
+          "title": "extensions",
+          "id": 59,
+          "ideas": {
+            "1": {
+              "title": "sysomos",
+              "id": 60
             }
           }
         },
+        "5": {
+          "title": "url",
+          "id": 65
+        },
+        "0.5": {
+          "title": "content",
+          "id": 56
+        },
+        "0.25": {
+          "title": "title",
+          "id": 57
+        },
+        "0.125": {
+          "title": "actor",
+          "id": 61,
+          "ideas": {
+            "1": {
+              "title": "id",
+              "id": 62,
+              "ideas": {}
+            }
+          }
+        }
+      }
+    },
+    "-10": {
+      "title": "sysomos",
+      "id": 2,
+      "ideas": {
         "2": {
           "title": "twitterFollowers",
           "id": 26,
@@ -152,7 +194,16 @@
             }
           }
         },
-        "25": {
+        "3.5": {
+          "title": "tweetHbLink",
+          "id": 25,
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          }
+        },
+        "3.75": {
           "title": "tags",
           "id": 42,
           "attr": {
@@ -162,123 +213,8 @@
           },
           "ideas": {
             "1": {
-              "title": "\"$systemType\": \"$value\"\nonly where systemType present\n\"$displayName\": \"$value\" otherwise",
-              "id": 51,
-              "attr": {
-                "style": {
-                  "background": "#00ffff"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "-1": {
-      "title": "beatResponse",
-      "id": 3,
-      "ideas": {
-        "3": {
-          "title": "beat",
-          "id": 7,
-          "ideas": {
-            "2": {
-              "title": "docid",
-              "id": 5,
-              "attr": {
-                "style": {
-                  "background": "#E0E0E0"
-                }
-              }
-            },
-            "3": {
-              "title": "mediaType",
-              "id": 8
-            },
-            "4": {
-              "title": "time",
-              "id": 9
-            },
-            "5": {
-              "title": "title",
-              "id": 10
-            },
-            "6": {
-              "title": "content",
-              "id": 11
-            },
-            "7": {
-              "title": "link",
-              "id": 12
-            },
-            "8": {
-              "title": "gender",
-              "id": 13
-            },
-            "9": {
-              "title": "location",
-              "id": 14,
-              "ideas": {
-                "1": {
-                  "title": "country",
-                  "id": 15
-                },
-                "2": {
-                  "title": "locationString",
-                  "id": 16
-                }
-              }
-            },
-            "10": {
-              "title": "influenceLevel",
-              "id": 17
-            },
-            "11": {
-              "title": "sentiment",
-              "id": 18
-            },
-            "12": {
-              "title": "tweetid",
-              "id": 19
-            },
-            "13": {
-              "title": "tweetJsonLink",
-              "id": 20
-            },
-            "14": {
-              "title": "tweetHbLink",
-              "id": 21
-            },
-            "15": {
-              "title": "twitterFollowers",
-              "id": 22
-            },
-            "16": {
-              "title": "twitterFollowing",
-              "id": 24
-            },
-            "26": {
-              "title": "tag",
-              "id": 4,
-              "attr": {
-                "style": {
-                  "background": "transparent"
-                }
-              },
-              "ideas": {
-                "1": {
-                  "title": "value",
-                  "id": 46
-                },
-                "2": {
-                  "title": "systemType",
-                  "id": 48
-                },
-                "0.5": {
-                  "title": "displayName",
-                  "id": 47
-                }
-              }
+              "title": "FBID",
+              "id": 68
             }
           }
         }
@@ -297,8 +233,78 @@
       }
     },
     {
-      "ideaIdFrom": 7,
-      "ideaIdTo": 2,
+      "ideaIdFrom": 28,
+      "ideaIdTo": 54,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 30,
+      "ideaIdTo": 55,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 32,
+      "ideaIdTo": 56,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 31,
+      "ideaIdTo": 57,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 2,
+      "ideaIdTo": 60,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 33,
+      "ideaIdTo": 65,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 29,
+      "ideaIdTo": 58,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 68,
+      "ideaIdTo": 62,
       "attr": {
         "style": {
           "color": "#FF0000",
