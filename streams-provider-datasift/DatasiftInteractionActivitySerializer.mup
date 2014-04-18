@@ -8,7 +8,7 @@
       "id": 2,
       "ideas": {
         "1": {
-          "title": "provider\nid:providers:datasift",
+          "title": "provider",
           "id": 5
         },
         "14": {
@@ -183,6 +183,10 @@
             "8": {
               "title": "link",
               "id": 43
+            },
+            "2.5": {
+              "title": "type",
+              "id": 46
             }
           }
         }
@@ -313,6 +317,16 @@
     {
       "ideaIdFrom": 45,
       "ideaIdTo": 12,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 46,
+      "ideaIdTo": 5,
       "attr": {
         "style": {
           "color": "#FF0000",
