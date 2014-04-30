@@ -7,35 +7,23 @@
       "title": "activity",
       "id": 53,
       "ideas": {
-        "1": {
-          "title": "id",
-          "id": 54
-        },
-        "4": {
+        "15": {
           "title": "extensions",
           "id": 59,
           "ideas": {
             "1": {
               "title": "sysomos",
               "id": 60
-            }
-          }
-        },
-        "5": {
-          "title": "url",
-          "id": 65
-        },
-        "6": {
-          "title": "provider",
-          "id": 69,
-          "ideas": {
-            "1": {
-              "title": "id\n'id:providers:' + lcase(mediaType)",
-              "id": 70
             },
             "2": {
-              "title": "displayName\ncapitalize(lcase(mediaType))",
-              "id": 71
+              "title": "location",
+              "id": 80,
+              "ideas": {
+                "1": {
+                  "title": "country",
+                  "id": 81
+                }
+              }
             }
           }
         },
@@ -47,20 +35,82 @@
           "title": "title",
           "id": 57
         },
-        "0.125": {
+        "0.0625": {
+          "title": "published",
+          "id": 55
+        },
+        "0.03125": {
+          "title": "provider",
+          "id": 69,
+          "ideas": {
+            "1": {
+              "title": "id\n'id:providers:' + lcase($.mediaType)",
+              "id": 70
+            },
+            "2": {
+              "title": "displayName\ncapitalize(lcase($.mediaType))",
+              "id": 71
+            }
+          }
+        },
+        "0.09375": {
+          "title": "id",
+          "id": 54
+        },
+        "0.1015625": {
           "title": "actor",
           "id": 61,
           "ideas": {
             "1": {
-              "title": "id",
+              "title": "id\n'id:' + lcase($.mediaType) + ':people:' + {value}\n{value}=\ncase FACEBOOK: $.tags.FBID;\n\ncase TWITTER: \n$.host\n\ncase BLOGPOST:\ncase FORUM: \ncase NEWS: \ncase YOUTUBE: \nnull",
               "id": 62,
               "ideas": {}
+            },
+            "2": {
+              "title": "displayName\n\ncase FACEBOOK: \n$.title;\n\ncase TWITTER: \n$.host\n\ncase BLOGPOST:\ncase FORUM: \ncase NEWS: \ncase YOUTUBE: \nnull",
+              "id": 73
+            },
+            "3": {
+              "title": "url\n\ncase FACEBOOK: \n$.host;\n\ncase TWITTER: \n'twitter.com' + $.host\n\ncase BLOGPOST:\ncase FORUM: \ncase NEWS: \ncase YOUTUBE: \nnull",
+              "id": 74
+            },
+            "4": {
+              "title": "extensions",
+              "id": 76,
+              "ideas": {
+                "1": {
+                  "title": "followers",
+                  "id": 77
+                },
+                "2": {
+                  "title": "following",
+                  "id": 78
+                }
+              }
             }
           }
         },
-        "0.0625": {
-          "title": "published",
-          "id": 55
+        "0.09765625": {
+          "title": "url",
+          "id": 65
+        },
+        "0.17578125": {
+          "title": "object",
+          "id": 79,
+          "ideas": {
+            "1": {
+              "title": "id\n\n'id:' + lcase(mediaType) +':activities:' + {value}\n\n{value} = \ncase TWITTER:\n$.tweetId\ndefault:\nhash(content)",
+              "id": 82
+            },
+            "2": {
+              "title": "url",
+              "id": 83
+            },
+            "3": {
+              "title": "content",
+              "id": 84
+            }
+          }
         }
       }
     },
@@ -68,6 +118,15 @@
       "title": "sysomos",
       "id": 2,
       "ideas": {
+        "1": {
+          "title": "mediaType",
+          "id": 29,
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          }
+        },
         "2": {
           "title": "twitterFollowers",
           "id": 26,
@@ -86,33 +145,6 @@
             }
           }
         },
-        "4": {
-          "title": "docid",
-          "attr": {
-            "style": {
-              "background": "#E0E0E0"
-            }
-          },
-          "id": 28
-        },
-        "5": {
-          "title": "mediaType",
-          "id": 29,
-          "attr": {
-            "style": {
-              "background": "#E0E0E0"
-            }
-          }
-        },
-        "6": {
-          "title": "time",
-          "id": 30,
-          "attr": {
-            "style": {
-              "background": "#E0E0E0"
-            }
-          }
-        },
         "7": {
           "title": "title",
           "id": 31,
@@ -125,15 +157,6 @@
         "8": {
           "title": "content",
           "id": 32,
-          "attr": {
-            "style": {
-              "background": "#E0E0E0"
-            }
-          }
-        },
-        "9": {
-          "title": "link",
-          "id": 33,
           "attr": {
             "style": {
               "background": "#E0E0E0"
@@ -213,7 +236,35 @@
             }
           }
         },
-        "3.75": {
+        "1.5": {
+          "title": "time",
+          "id": 30,
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          }
+        },
+        "1.75": {
+          "title": "docid",
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          },
+          "id": 28
+        },
+        "1.875": {
+          "title": "link",
+          "id": 33,
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          },
+          "ideas": {}
+        },
+        "1.9375": {
           "title": "tags",
           "id": 42,
           "attr": {
@@ -223,10 +274,14 @@
           },
           "ideas": {
             "1": {
-              "title": "FBID",
+              "title": "IF Facebok\nFBID",
               "id": 68
             }
           }
+        },
+        "1.96875": {
+          "title": "host\n",
+          "id": 72
         }
       }
     }
@@ -305,6 +360,116 @@
     {
       "ideaIdFrom": 68,
       "ideaIdTo": 62,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 29,
+      "ideaIdTo": 70,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 71,
+      "ideaIdTo": 29,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 72,
+      "ideaIdTo": 62,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 74,
+      "ideaIdTo": 72,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 73,
+      "ideaIdTo": 72,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 73,
+      "ideaIdTo": 31,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 78,
+      "ideaIdTo": 27,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 77,
+      "ideaIdTo": 26,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 81,
+      "ideaIdTo": 36,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 83,
+      "ideaIdTo": 33,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 84,
+      "ideaIdTo": 32,
       "attr": {
         "style": {
           "color": "#FF0000",
