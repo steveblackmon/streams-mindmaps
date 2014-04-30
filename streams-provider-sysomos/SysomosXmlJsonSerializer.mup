@@ -1,5 +1,5 @@
 {
-  "title": "SysomosJsonActivitySerializer",
+  "title": "SysomosBeatActivityConverter",
   "id": 1,
   "formatVersion": 2,
   "ideas": {
@@ -10,14 +10,6 @@
         "1": {
           "title": "id",
           "id": 54
-        },
-        "2": {
-          "title": "published",
-          "id": 55
-        },
-        "3": {
-          "title": "provider\nsysomos:$.mediaType",
-          "id": 58
         },
         "4": {
           "title": "extensions",
@@ -32,6 +24,20 @@
         "5": {
           "title": "url",
           "id": 65
+        },
+        "6": {
+          "title": "provider",
+          "id": 69,
+          "ideas": {
+            "1": {
+              "title": "id\n'id:providers:' + lcase(mediaType)",
+              "id": 70
+            },
+            "2": {
+              "title": "displayName\ncapitalize(lcase(mediaType))",
+              "id": 71
+            }
+          }
         },
         "0.5": {
           "title": "content",
@@ -51,6 +57,10 @@
               "ideas": {}
             }
           }
+        },
+        "0.0625": {
+          "title": "published",
+          "id": 55
         }
       }
     },
@@ -285,16 +295,6 @@
     {
       "ideaIdFrom": 33,
       "ideaIdTo": 65,
-      "attr": {
-        "style": {
-          "color": "#FF0000",
-          "lineStyle": "dashed"
-        }
-      }
-    },
-    {
-      "ideaIdFrom": 29,
-      "ideaIdTo": 58,
       "attr": {
         "style": {
           "color": "#FF0000",
