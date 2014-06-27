@@ -1,0 +1,246 @@
+{
+  "title": "InstagramMediaDataActivitySerializer",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "activity",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "published",
+          "id": 25
+        },
+        "2": {
+          "title": "id",
+          "id": 26
+        },
+        "3": {
+          "title": "provider",
+          "id": 27,
+          "ideas": {
+            "1": {
+              "title": "id",
+              "id": 28,
+              "ideas": {
+                "1": {
+                  "title": "instagram",
+                  "id": 31
+                }
+              }
+            },
+            "2": {
+              "title": "displayName",
+              "id": 29,
+              "ideas": {
+                "1": {
+                  "title": "Instagram",
+                  "id": 30
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "title": "objectType",
+          "id": 38
+        },
+        "5": {
+          "title": "object",
+          "id": 39
+        },
+        "6": {
+          "title": "link",
+          "id": 40
+        },
+        "0.5": {
+          "title": "actor",
+          "id": 32,
+          "ideas": {
+            "1": {
+              "title": "id",
+              "id": 35
+            },
+            "0.5": {
+              "title": "screenName",
+              "id": 36
+            }
+          }
+        }
+      }
+    },
+    "-1": {
+      "title": "data",
+      "id": 4,
+      "ideas": {
+        "1": {
+          "title": "comments",
+          "id": 5,
+          "ideas": {
+            "1": {
+              "title": "data",
+              "id": 44
+            }
+          }
+        },
+        "2": {
+          "title": "likes",
+          "id": 6
+        },
+        "3": {
+          "title": "caption",
+          "id": 7,
+          "ideas": {}
+        },
+        "4": {
+          "title": "links",
+          "id": 9
+        },
+        "5": {
+          "title": "link",
+          "id": 10
+        },
+        "6": {
+          "title": "user",
+          "id": 11,
+          "ideas": {
+            "1": {
+              "title": "username",
+              "id": 33
+            },
+            "2": {
+              "title": "profile_picture",
+              "id": 34
+            },
+            "3": {
+              "title": "id",
+              "id": 37
+            }
+          }
+        },
+        "9": {
+          "title": "type",
+          "id": 21
+        },
+        "11": {
+          "title": "location",
+          "id": 24
+        },
+        "12": {
+          "title": "videos",
+          "id": 41,
+          "ideas": {
+            "1": {
+              "title": "low_resolution",
+              "id": 42
+            },
+            "2": {
+              "title": "standard_resolution",
+              "id": 43
+            }
+          }
+        },
+        "13": {
+          "title": "tags",
+          "id": 45
+        },
+        "11.5": {
+          "title": "images",
+          "id": 14,
+          "ideas": {
+            "1": {
+              "title": "low_resolution",
+              "id": 15,
+              "ideas": {
+                "1": {
+                  "title": "url",
+                  "id": 18
+                }
+              }
+            },
+            "2": {
+              "title": "thumbnail",
+              "id": 16,
+              "ideas": {
+                "1": {
+                  "title": "url",
+                  "id": 19
+                }
+              }
+            },
+            "3": {
+              "title": "standard_resolution",
+              "id": 17,
+              "ideas": {
+                "1": {
+                  "title": "url",
+                  "id": 20
+                }
+              }
+            }
+          }
+        },
+        "6.5": {
+          "title": "id",
+          "id": 23
+        },
+        "6.25": {
+          "title": "created_time",
+          "id": 12
+        }
+      }
+    }
+  },
+  "links": [
+    {
+      "ideaIdFrom": 23,
+      "ideaIdTo": 26,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 33,
+      "ideaIdTo": 36,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 37,
+      "ideaIdTo": 35,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 12,
+      "ideaIdTo": 25,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 21,
+      "ideaIdTo": 38,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    }
+  ]
+}
